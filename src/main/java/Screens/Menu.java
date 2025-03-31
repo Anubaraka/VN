@@ -73,6 +73,7 @@ public class Menu extends JFrame {
         public void actionPerformed(ActionEvent e) {
             BackgroundForestLake bgf=new BackgroundForestLake();
             menuMusic.stop();
+            setVisible(false);
         }
     }
 }
